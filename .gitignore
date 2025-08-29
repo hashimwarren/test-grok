@@ -21,9 +21,16 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Prisma
+# Database
 prisma/*.db
 prisma/*.db-journal
 
+# Drizzle
+/drizzle
+
 # Build caches
 .cache/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
